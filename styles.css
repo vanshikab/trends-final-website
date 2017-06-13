@@ -1,0 +1,50 @@
+body,html {
+	margin:0;
+}
+ 
+ul{
+	display: inline-block;
+	list-style: none;
+	/*background-color: white;*/
+	width: 100%;
+	margin: 0px;
+}
+ 
+body {
+	background-color: #99ffff;	
+}
+
+li{
+	display: inline-block;
+	padding: 20px;
+}
+ 
+li a{
+	text-decoration: none;
+	padding: 20px;
+	color: black;
+	background-color: pink;
+}
+ 
+li a:hover{
+	background-color: black;
+	color: #00ffff;
+}
+ 
+#pic1 {
+	position:fixed;
+	top: 200px;
+	left: 0px;
+	border:3px solid black;
+	height: 500px;
+}
+	
+#pic2 {
+position:fixed;
+	top: 200px;
+	right: 35px;
+	height:550px;
+	border:3px solid black;
+}
+ 
+
